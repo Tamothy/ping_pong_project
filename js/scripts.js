@@ -1,22 +1,23 @@
-//Business Logic (back-end)
-var pingPongNumber = function(y) {
-    if (y % 15 === 0) {
-      return "pingpong";
-    } else if (y % 3 === 0) {
-       return "ping";
-    } else if (y % 5 === 0) {
-       return "pong";
+//Business Logic
+var pingPongNumber = function(num) {
+  for (var index = 1; index <= num; index += 1) {
+    if (index % 15 === 0) {
+         $(".results").append("<li>" + "pingpong" + "</li>");
+    } else if (index % 3 === 0) {
+         $(".results").append("<li>" + "ping" + "</li>");
+    } else if (index % 5 === 0) {
+         $(".results").append("<li>" + "pong" + "</li>");
     } else {
-      return y;
+         $(".results").append("<li>" + index + "</li>");
+    }
   }
 };
-//User Interface (front-end)
+//User Interface
 $(document).ready(function () {
   $("form#ping-pong").submit(function(event) {
     event.preventDefault();
-    var num = $("input#number").val();
-    var outcome = pingPongNumber(num);
-    $(".results").append("<li>" + outcome + "</li>");
+    var numberValue = $("input#number").val();
+    pingPongNumber(numberValue);
     $("#reveal").show();
   });
 });
