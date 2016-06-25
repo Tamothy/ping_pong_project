@@ -12,11 +12,11 @@ The project contains a game that allows a numeral input and outputs numbers and 
 
 | Behavior                                                     | Input         | Output    |
 | -------------------------------------------------------------|:-------------:| ---------:|
-| It returns a number                                          | 2             | 2         |
-| It returns numbers starting from 1 and up to number inputted | 2             | 1, 2      |
-| It returns ping for numbers that are multiples of 3          | 6             | "ping"    |
-| It returns pong for numbers that are multiples of 5          | 10            | "pong"    |
-| It returns pingpong for numbers that are multiples of 15     | 30            | "pingpong"|
+| It returns a number                                          | 2             | [2] |
+| It returns numbers starting from 1 and up to number inputted | 2             | [1, 2] |
+| It returns ping for numbers that are multiples of 3          | 6             | [1, 2, ping, 4, 5, ping] |
+| It returns pong for numbers that are multiples of 5          | 10            | [1, 2, ping, 4, pong, ping, 7, 8, ping, pong] |
+| It returns pingpong for numbers that are multiples of 15     | 30            | [1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, pingpong, 16, 17, ping, 19, pong, ping, 22, 23, ping, pong, 26, ping, 28, 29, pingpong] |
 
 ## Setup/Installation Requirements
 
