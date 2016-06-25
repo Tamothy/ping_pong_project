@@ -1,6 +1,6 @@
 # Ping Pong
 
-#### Ping pong game that results in displaying numbers and strings, 06.10.2016
+#### Ping pong game that results in displaying numbers and strings, 06.24.2016
 
 #### By Tam Nguyen
 
