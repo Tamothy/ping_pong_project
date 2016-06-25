@@ -6,17 +6,17 @@
 
 ## Description
 
-The project contains a game that allows a numeral input and outputs numbers and strings, depending if the number are multiples of 3 and 5, or both.
+The project contains a game that allows a numeral input and outputs numbers and strings, depending if the number are multiples of 3, 5, and 15.
 
 ## BDD Specifications
 
-| Behavior                                                          | Input         | Output    |
-| ----------------------------------------------------------------- |:-------------:| ---------:|
-| It returns a number                                               | 2             | 2         |
-| It returns numbers starting from 1 and up to number inputted      | 2             | 1, 2      |
-| It returns ping for numbers that are multiples of 3               | 6             | "ping"    |
-| It returns pong for numbers that are multiples of 5               | 10            | "pong"    |
-| It returns pingpong for numbers that are multiples of 3 and 5     | 30            | "pingpong"|
+| Behavior                                                     | Input         | Output    |
+| -------------------------------------------------------------|:-------------:| ---------:|
+| It returns a number                                          | 2             | 2         |
+| It returns numbers starting from 1 and up to number inputted | 2             | 1, 2      |
+| It returns ping for numbers that are multiples of 3          | 6             | "ping"    |
+| It returns pong for numbers that are multiples of 5          | 10            | "pong"    |
+| It returns pingpong for numbers that are multiples of 15     | 30            | "pingpong"|
 
 ## Setup/Installation Requirements
 
