@@ -12,7 +12,7 @@ The project contains a game that allows a numeral input and outputs numbers and 
 
 | Behavior                                                     | Input         | Output    |
 | -------------------------------------------------------------|:-------------:| ---------:|
-| It returns a number                                          | 2             | [2] |
+| It returns a number                                          | 2             | 2 |
 | It returns numbers starting from 1 and up to number inputted | 2             | [1, 2] |
 | It returns ping for numbers that are multiples of 3          | 6             | [1, 2, ping, 4, 5, ping] |
 | It returns pong for numbers that are multiples of 5          | 10            | [1, 2, ping, 4, pong, ping, 7, 8, ping, pong] |
